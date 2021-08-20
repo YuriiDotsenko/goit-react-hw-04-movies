@@ -1,0 +1,28 @@
+.moviesBox {
+  display: flex;
+  flex-direction: column;
+}
+
+.movieInput {
+  margin: 0 20px;
+  padding: 10px;
+  border: 3px solid rgb(47, 0, 255);
+  border-radius: 5px;
+}
+.searchButton {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(47, 0, 255);
+  color: white;
+  font-weight: 600;
+}
+
+.searchButton:hover,
+.searchButton:focus {
+  background-color: white;
+  color: rgb(47, 0, 255);
+  border: 3px solid rgb(47, 0, 255);
+
+  transition: background-color 250ms ease, color 25ms ease;
+}

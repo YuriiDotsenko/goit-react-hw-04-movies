@@ -1,0 +1,16 @@
+.castList {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0 20px;
+  list-style: none;
+}
+.castItem:not(:last-child) {
+  margin-right: 20px;
+  margin-bottom: 20px;
+  width: 200px;
+}
+
+.castText {
+  margin-bottom: 0;
+}

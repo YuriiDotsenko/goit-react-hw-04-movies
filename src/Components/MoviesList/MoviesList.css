@@ -1,0 +1,26 @@
+.MoviesList {
+  display: inline-block;
+  margin-bottom: 0;
+  margin-left: 20px;
+  padding: 20px;
+  list-style: none;
+  border: 3px solid rgb(47, 0, 255);
+  border-radius: 5px;
+}
+.movieTitle {
+  margin: 0;
+}
+.movieLink {
+  text-decoration: none;
+  color: inherit;
+  transition: color 250ms ease;
+}
+
+.movieLink:hover,
+.movieLink:focus {
+  color: rgb(47, 0, 255);
+}
+
+.movieItem:not(:last-child) {
+  margin-bottom: 10px;
+}
